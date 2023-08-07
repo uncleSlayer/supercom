@@ -1,0 +1,41 @@
+ 
+[uncleslayer@uncleslayer-hpnotebook superComm]$ ssh -i "supercom.pem" ubuntu@ec2-13-55-91-185.ap-southeast-2.compute.amazonaws.com
+The authenticity of host 'ec2-13-55-91-185.ap-southeast-2.compute.amazonaws.com (13.55.91.185)' can't be established.
+ED25519 key fingerprint is SHA256:m2YRHCvdSAa5o94ajszM96aEKtK3e+WIIxyYpIg4RlY.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ec2-13-55-91-185.ap-southeast-2.compute.amazonaws.com' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.19.0-1025-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Aug  7 06:40:30 UTC 2023
+
+  System load:  0.291015625       Processes:             100
+  Usage of /:   20.6% of 7.57GB   Users logged in:       0
+  Memory usage: 24%               IPv4 address for eth0: 172.31.2.88
+  Swap usage:   0%
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
