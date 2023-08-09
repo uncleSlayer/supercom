@@ -16,9 +16,9 @@ jobs:
     - name: SSH and deploy
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      run: |
+      run:
         echo "$SSH_PRIVATE_KEY" > keyfile
         chmod 600 keyfile
         mkdir -p ~/.ssh
-        cp ~/.ssh/known_hosts ~/.ssh
+        cp known_hosts ~/.ssh/known_hosts
         ssh -t -i keyfile ubuntu@ec2-54-206-97-67.ap-southeast-2.compute.amazonaws.com "sudo bash ~/deploy.sh"
