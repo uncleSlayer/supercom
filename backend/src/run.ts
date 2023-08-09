@@ -13,6 +13,10 @@ app.get('/test', (req, res) => {
     res.send('hello, this is a test')
 })
 
+app.get('/testtwo', (req, res) => {
+    res.send('test two')
+})
+
 app.use(cors())
 app.use(express.json())
 app.use(itemRouter)
