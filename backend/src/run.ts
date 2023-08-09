@@ -5,6 +5,9 @@ import cors from 'cors'
 
 const app: express.Application = express()
 
+app.get('/sid', (req, res) => {
+    res.send('hello!!, I am the site author')
+})
 app.use(cors())
 app.use(express.json())
 app.use(itemRouter)
