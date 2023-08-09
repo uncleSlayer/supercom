@@ -1,7 +1,6 @@
 cd ./backend
 
-pm2 stop run
-pm2 del run
+pm2 kill
 
 git pull origin main
 
